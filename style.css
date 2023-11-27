@@ -1,5 +1,5 @@
-#grid{
-    width: 480px;
+#matrice16{
+    width:480px;
     display:flex;
     flex-wrap:wrap;
     border-radius: 4px;
@@ -8,28 +8,41 @@
 
 }
 
+#up{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin:30px;
+    font-size:30px;
+    
+}
+.btn{
+    border-radius: 4px;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style:none;
+    color:white;
+    background-color: cornflowerblue;
+    cursor:pointer;
+} 
+.btn:hover{
+    background-color:blueviolet;
+}
 #container{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
-    height:100vh;
     flex-direction: column;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    
+}
 
-}
-#grid p {
-    box-sizing: border-box;
-    margin:0;
-    width:30px;
-    height:30px;
-    border: 1px solid black;
-}
 .hovered{
     background-color:aqua;
 }
-
+.radiera{
+    background-color:white;
+}
 body{
     margin : 0;
     background-color:aqua;
